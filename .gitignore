@@ -7,3 +7,7 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+# Clion
+server/cmake-build-debug/
+client/cmake-build-debug/
