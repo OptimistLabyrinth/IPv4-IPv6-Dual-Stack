@@ -25,9 +25,9 @@ int LOG(const char* format, ...)
 {
     va_list arg;
     va_start(arg, format);
-    vprintf(format, arg);
+    vfprintf(stderr, format, arg);
     va_end(arg);
-    printf("\n");
+    fprintf(stderr, "\n");
 }
 
 
